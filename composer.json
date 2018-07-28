@@ -1,0 +1,28 @@
+{
+    "name": "runsite/blank",
+    "require": {
+        "php": ">=7.0.0",
+        "runsite/cmf": "1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaroslaw Goszowski",
+            "email": "goszowski@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+          "Runsite\\Blank\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Runsite\\Blank\\RunsiteBlankServiceProvider"
+            ]
+        }
+    }
+}
